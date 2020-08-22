@@ -12,7 +12,7 @@ public class ChessPosition {
 			throw new ChessException("Error instantiating ChessPosition. Valid values are from a1 to h8.");
 		}
 		this.column = column;
-		this.row = row;
+		this.row = row; 
 	}
 
 	public char getColumn() {
